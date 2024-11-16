@@ -1,0 +1,19 @@
+/* ContainerProd.module.css */
+.contProd {
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* As linhas de produtos são empilhadas verticalmente */
+    gap: 30px; /* Espaço entre as linhas de produtos */
+    width: 90%;
+    margin-top: 30px;
+    overflow-x: auto; /* Permite rolagem horizontal caso ultrapasse a largura */
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    display: flex; /* Flexbox para organizar os produtos dentro de cada linha */
+    flex-direction: row; /* Organiza os produtos horizontalmente */
+    gap: 20px; /* Espaço entre os produtos dentro de uma linha */
+}
