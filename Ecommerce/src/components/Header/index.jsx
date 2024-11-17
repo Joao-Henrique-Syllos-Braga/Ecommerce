@@ -1,5 +1,5 @@
-function Header({inf}) {
-    return (<header>{inf}</header>)
+function Header({inf, className}) {
+    return (<header className={className}>{inf}</header>)
 }
 
 export default Header;

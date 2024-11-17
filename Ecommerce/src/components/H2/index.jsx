@@ -1,5 +1,5 @@
-function H2({text}) {
-    return (<h2>{text}</h2>)
+function H2({text, className}) {
+    return (<h2 className={className} >{text}</h2>)
 }
 
 export default H2;

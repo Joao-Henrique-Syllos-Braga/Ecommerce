@@ -6,7 +6,7 @@ import Li from "../Li";
 import Nav from "../Nav";
 import Ul from "../Ul";
 
-import styles from "./header.module.css"
+import styles from "./NavBar.module.css";
 
 function NavBar () {
     return (
@@ -15,7 +15,7 @@ function NavBar () {
         <Nav className={styles.nav} 
             inf={
                 <>
-                <H1 className={styles.title} text="E-commerce" />,
+                <H1 className={styles.title} text="E-commerce" />
                 <Input className={styles.search} type="text" placeholder="Pesquisar" />
                 <Ul className={styles.links} inf={
                     <>
