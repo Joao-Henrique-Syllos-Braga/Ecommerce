@@ -1,5 +1,5 @@
-function Header({inf, className}) {
-    return (<header className={className}>{inf}</header>)
+function Header({chileldren, className}) {
+    return (<header className={className}>{chileldren}</header>)
 }
 
 export default Header;
