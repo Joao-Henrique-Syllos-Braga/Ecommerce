@@ -13,5 +13,4 @@ const produtos = [
 <Product name="Produto 10" img="/Bola.svg" status="Indisponível" price="$35.00" />,
 ]
 
-
 export default produtos;
