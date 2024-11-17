@@ -12,16 +12,22 @@ function NavBar () {
     return (
         <Header className={styles.header}>
             <Nav className={styles.nav}>
-                    <H1 className={styles.title} text="E-commerce" />
-                    <Input className={styles.search} type="text" placeholder="Pesquisar" />
-                    <Ul className={styles.links}>
-                        <Li className={styles.elementLink} inf={<A src="#Suport" inf="Suport" />} />
-                        <Li className={styles.elementLink} inf={<A src="#Card" inf="Card" />} />
-                        <Li className={styles.elementLink} inf={<A src="#Sobre" inf="Sobre" />} />
-                    </Ul>
-                </Nav>
+                <H1 className={styles.title} text="E-commerce" />
+                <Input className={styles.search} type="text" placeholder="Pesquisar" />
+                <Ul className={styles.links}>
+                    <Li className={styles.elementLink}>
+                        <A src="#Suport" inf="Suport" />
+                    </Li>
+                    <Li className={styles.elementLink}>
+                        <A src="#Card" inf="Card" />
+                    </Li>
+                    <Li className={styles.elementLink}>
+                        <A src="#Sobre" inf="Sobre" />
+                    </Li>
+                </Ul>
+            </Nav>
         </Header>
-    )
+    );
 }
 
 export default NavBar;
