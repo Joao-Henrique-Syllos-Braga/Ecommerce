@@ -1,5 +1,5 @@
-function Header({chileldren, className}) {
-    return (<header className={className}>{chileldren}</header>)
+function Header({children, className}) {
+    return (<header className={className}>{children}</header>)
 }
 
 export default Header;
