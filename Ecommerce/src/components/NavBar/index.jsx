@@ -6,20 +6,22 @@ import Li from "../Li";
 import Nav from "../Nav";
 import Ul from "../Ul";
 
+import styles from "./header.module.css"
+
 function NavBar () {
     return (
-        <Header inf={
+        <Header className={styles.header} inf={
         <>
-        <Nav 
+        <Nav className={styles.nav} 
             inf={
                 <>
-                <H1 text="E-commerce" />,
-                <Input type="text" placeholder="Pesquisar" />
-                <Ul inf={
+                <H1 className={styles.title} text="E-commerce" />,
+                <Input className={styles.search} type="text" placeholder="Pesquisar" />
+                <Ul className={styles.links} inf={
                     <>
-                        <Li inf={<A src="#Suport" inf="Suport" />} />
-                        <Li inf={<A src="#Card" inf="Card" />} />
-                        <Li inf={<A src="#Sobre" inf="Sobre" />} />
+                        <Li className={styles.elementLink} inf={<A src="#Suport" inf="Suport" />} />
+                        <Li className={styles.elementLink} inf={<A src="#Card" inf="Card" />} />
+                        <Li className={styles.elementLink} inf={<A src="#Sobre" inf="Sobre" />} />
                     </>
                 } />
                 </>
