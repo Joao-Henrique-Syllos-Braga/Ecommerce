@@ -1,5 +1,5 @@
-function Ul({inf, className}) {
-    return (<ul className={className}>{inf}</ul>)
+function Ul({ className, children}) {
+    return (<ul className={className}>{children}</ul>)
 }
 
 export default Ul;

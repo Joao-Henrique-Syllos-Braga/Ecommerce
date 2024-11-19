@@ -2,7 +2,7 @@ import A from "../A";
 import H1 from "../H1";
 import Li from "../Li";
 import Ul from "../Ul";
-import Footers from "./footer";
+import Footers from "./footer.jsx";
 
 function Footer() {
     return (

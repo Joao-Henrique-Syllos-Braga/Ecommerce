@@ -1,4 +1,6 @@
-function Li({inf, className}) {
-    return (<li className={className}>{inf}</li>)
-} 
+
+function Li({className, children }) {
+    return <li className={className}>{children}</li>;
+}
+
 export default Li;

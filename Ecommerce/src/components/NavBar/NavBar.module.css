@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     color: white;
-    height: 100px;
+    height: 80px;
 }
 .nav {
     width: 100%;
@@ -13,12 +13,12 @@
 }
 
 .title {
-    font-size: 30pt;
+    font-size: 26pt;
     margin-left: 20px;
 }
 
 .search {
-    padding: 20px 30px;
+    padding: 10px 20px;
     width: 500px;
     border: none;
     font-size: large;
@@ -33,7 +33,7 @@
     gap: 50px;
     list-style-type: none;
     margin-right: 50px;
-    font-size: 24pt;
+    font-size: 16pt;
 }
 
 .elementLink {
