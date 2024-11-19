@@ -19,9 +19,15 @@ function NavBar () {
                 <Input className={styles.search} type="text" placeholder="Pesquisar" />
                 <Ul className={styles.links} inf={
                     <>
-                        <Li className={styles.elementLink} inf={<A src="#Suport" inf="Suport" />} />
-                        <Li className={styles.elementLink} inf={<A src="#Card" inf="Card" />} />
-                        <Li className={styles.elementLink} inf={<A src="#Sobre" inf="Sobre" />} />
+                        <Li className={styles.elementLink}>
+                        <A src="#Suport" inf="Suport" />
+                        </Li>
+                        <Li className={styles.elementLink}>
+                        <A src="#Card" inf="Card" />
+                        </Li>
+                        <Li className={styles.elementLink}>
+                        <A src="#Sobre" inf="Sobre" />
+                        </Li>
                     </>
                 } />
                 </>

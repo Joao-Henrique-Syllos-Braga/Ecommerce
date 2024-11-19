@@ -1,5 +1,5 @@
-function Nav({inf, className}) {
-    return (<nav className={className}>{inf}</nav>)
+function Nav({children, className}) {
+    return (<nav className={className}>{children}</nav>)
 }
 
 export default Nav;
