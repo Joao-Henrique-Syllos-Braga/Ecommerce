@@ -7,10 +7,10 @@ import H2 from '../H2';
 function Product({ name, img, status, price }) {
     return (
         <div className={styles.container}>
-            <H1 text={name} />
+            <H1>{name}</H1>
             <Img src={img} alt={name} />
-            <P text={<i>{status}</i>} />
-            <H2 text={price} />
+            <P><i>{status}</i></P>
+            <H2>{price}</H2>
         </div>
     );
 }

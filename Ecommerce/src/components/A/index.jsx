@@ -1,5 +1,5 @@
-function A({src, inf, className}) {
-    return (<a className={className} src={src}>{inf}</a>)
+function A({ href, children, className }) {
+    return <a className={className} href={href}>{children}</a>;
 }
 
 export default A;

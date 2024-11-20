@@ -12,17 +12,17 @@ function NavBar () {
     return (
         <Header className={styles.header}>
         <Nav className={styles.nav}>
-                <H1 className={styles.title} text="E-commerce" />
+                <H1 className={styles.title}>E-commerce</H1>
                 <Input className={styles.search} type="text" placeholder="Pesquisar" />
                 <Ul className={styles.links}>
                         <Li className={styles.elementLink}>
-                        <A src="#Suport" inf="Suport" /></Li>
+                        <A src="#Suport">Support</A></Li>
                         
                         <Li className={styles.elementLink}>
-                        <A src="#Card" inf="Card" /></Li>
+                        <A src="#Card">Carrinho</A></Li>
                         
                         <Li className={styles.elementLink}>
-                        <A src="#Sobre" inf="Sobre" />
+                        <A src="#Sobre">Sobre</A>
                         </Li>
                 </Ul>
                 </Nav>
